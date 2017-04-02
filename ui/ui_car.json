@@ -1,0 +1,36 @@
+{
+
+	"name": "Volvo FH - Formula Truck",
+	"brand": "Volvo",
+	"description": "Volvo Trucks is a global truck manufacturer based in Gothenburg, Sweden, owned by AB Volvo. It is the world's second largest heavy-duty truck brand.</br>
+
+",
+	"tags": ["rwd", "truck", "race", "diesel", "Formula Truck", "turbo", "shifter"],  
+	"class": "race",
+
+	"specs":
+	{
+		"bhp": "+1000bhp",
+		"torque": "3378Nm",
+		"weight": "4820kg",
+		"topspeed": "+240km/h",
+		"acceleration": "-",
+		"pwratio": "-"
+	},
+		"torqueCurve": [
+		 ["0","600"],
+		 ["250","600"],
+		 ["750","1800"],
+		 ["1250","2340"],
+		 ["1750","3000"],
+		 ["2250","3380"],
+		 ["2750","2990"],
+		 ["3250","2630"],
+		 ["3750","2020"],
+		 ["4250","1330"]
+        ],
+        "powerCurve": [
+		 ["0","0"]
+		]
+
+}
